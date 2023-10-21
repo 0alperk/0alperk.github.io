@@ -54,8 +54,10 @@ function write_to_cookie(var_name, value_to_write) {
 		// document.write(to_add_to_Qualtrics_embedded_data);
 			
 		// to display the list of variables that need to be embedded in Qualtrics q're part 3 **rather than** processing the q're like normal, comment the following line;
-		location.replace('https://unc.az1.qualtrics.com/SE/?SID=' + Qualtrics_SID + get_substitute + '&ready=1' + '&result=' + result + '&Q_R=' + result + '&Q_R_DEL=1');
+		//location.replace('https://stonybrookuniversity.co1.qualtrics.com/jfe/form/' + Qualtrics_SID + '/?' + get_substitute + '&Group=' + group + '&Specification=' + specification + '&ready=' + ready + '&result=' + result + '&Q_R=' + result + '&Q_R_DEL=1');
 
+		location.replace('https://stonybrookuniversity.co1.qualtrics.com/jfe/form/' + Qualtrics_SID + '/?' + get_substitute + '&result=' + result + '&Q_R=' + result);
+	
 	
 	}
 				
