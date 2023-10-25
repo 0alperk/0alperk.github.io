@@ -49,8 +49,6 @@
 
 	window.onload=function(){
 	
-		window.onload=function(){
-	
 		// pulls data from q're part 1 and carries it to part 2's data.  (Could pull in all the variables; here only pulls in the ResponseID.)
 		var result = retrieve_from_URL("Part_1_ResponseID");
 		write_to_cookie("Part_1_ResponseID",result);
@@ -63,7 +61,6 @@
 
 		var specification = retrieve_from_URL("Specification");
 		write_to_cookie("Specification", specification);
-
 
 		
 		// The filename that should be called when the current screen is completed processing;					
